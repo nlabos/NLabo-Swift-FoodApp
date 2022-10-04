@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046C83CD28EC203C0004EE26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83CC28EC203C0004EE26 /* AppDelegate.swift */; };
+		046C83CF28EC203C0004EE26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83CE28EC203C0004EE26 /* SceneDelegate.swift */; };
+		046C83D128EC203C0004EE26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83D028EC203C0004EE26 /* ViewController.swift */; };
+		046C83D428EC203C0004EE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C83D228EC203C0004EE26 /* Main.storyboard */; };
+		046C83D628EC203E0004EE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046C83D528EC203E0004EE26 /* Assets.xcassets */; };
+		046C83D928EC203E0004EE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C83D728EC203E0004EE26 /* LaunchScreen.storyboard */; };
+		046C83E428EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83E328EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppTests.swift */; };
+		046C83EE28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83ED28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift */; };
+		046C83F028EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C83EF28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046C83E028EC203E0004EE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046C83C128EC203C0004EE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046C83C828EC203C0004EE26;
+			remoteInfo = "NLabo-Swift-FoodtrackerApp";
+		};
+		046C83EA28EC203E0004EE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046C83C128EC203C0004EE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046C83C828EC203C0004EE26;
+			remoteInfo = "NLabo-Swift-FoodtrackerApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046C83C928EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NLabo-Swift-FoodtrackerApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C83CC28EC203C0004EE26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046C83CE28EC203C0004EE26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046C83D028EC203C0004EE26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046C83D328EC203C0004EE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046C83D528EC203E0004EE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046C83D828EC203E0004EE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046C83DA28EC203E0004EE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046C83DF28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NLabo-Swift-FoodtrackerAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C83E328EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLabo_Swift_FoodtrackerAppTests.swift; sourceTree = "<group>"; };
+		046C83E928EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NLabo-Swift-FoodtrackerAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C83ED28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLabo_Swift_FoodtrackerAppUITests.swift; sourceTree = "<group>"; };
+		046C83EF28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046C83C628EC203C0004EE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83DC28EC203E0004EE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83E628EC203E0004EE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046C83C028EC203C0004EE26 = {
+			isa = PBXGroup;
+			children = (
+				046C83CB28EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */,
+				046C83E228EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests */,
+				046C83EC28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests */,
+				046C83CA28EC203C0004EE26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046C83CA28EC203C0004EE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046C83C928EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp.app */,
+				046C83DF28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests.xctest */,
+				046C83E928EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046C83CB28EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				046C83CC28EC203C0004EE26 /* AppDelegate.swift */,
+				046C83CE28EC203C0004EE26 /* SceneDelegate.swift */,
+				046C83D028EC203C0004EE26 /* ViewController.swift */,
+				046C83D228EC203C0004EE26 /* Main.storyboard */,
+				046C83D528EC203E0004EE26 /* Assets.xcassets */,
+				046C83D728EC203E0004EE26 /* LaunchScreen.storyboard */,
+				046C83DA28EC203E0004EE26 /* Info.plist */,
+			);
+			path = "NLabo-Swift-FoodtrackerApp";
+			sourceTree = "<group>";
+		};
+		046C83E228EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				046C83E328EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppTests.swift */,
+			);
+			path = "NLabo-Swift-FoodtrackerAppTests";
+			sourceTree = "<group>";
+		};
+		046C83EC28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046C83ED28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift */,
+				046C83EF28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift */,
+			);
+			path = "NLabo-Swift-FoodtrackerAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046C83C828EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C83F328EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerApp" */;
+			buildPhases = (
+				046C83C528EC203C0004EE26 /* Sources */,
+				046C83C628EC203C0004EE26 /* Frameworks */,
+				046C83C728EC203C0004EE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NLabo-Swift-FoodtrackerApp";
+			productName = "NLabo-Swift-FoodtrackerApp";
+			productReference = 046C83C928EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046C83DE28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C83F628EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerAppTests" */;
+			buildPhases = (
+				046C83DB28EC203E0004EE26 /* Sources */,
+				046C83DC28EC203E0004EE26 /* Frameworks */,
+				046C83DD28EC203E0004EE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C83E128EC203E0004EE26 /* PBXTargetDependency */,
+			);
+			name = "NLabo-Swift-FoodtrackerAppTests";
+			productName = "NLabo-Swift-FoodtrackerAppTests";
+			productReference = 046C83DF28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046C83E828EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C83F928EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerAppUITests" */;
+			buildPhases = (
+				046C83E528EC203E0004EE26 /* Sources */,
+				046C83E628EC203E0004EE26 /* Frameworks */,
+				046C83E728EC203E0004EE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C83EB28EC203E0004EE26 /* PBXTargetDependency */,
+			);
+			name = "NLabo-Swift-FoodtrackerAppUITests";
+			productName = "NLabo-Swift-FoodtrackerAppUITests";
+			productReference = 046C83E928EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046C83C128EC203C0004EE26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					046C83C828EC203C0004EE26 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					046C83DE28EC203E0004EE26 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 046C83C828EC203C0004EE26;
+					};
+					046C83E828EC203E0004EE26 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 046C83C828EC203C0004EE26;
+					};
+				};
+			};
+			buildConfigurationList = 046C83C428EC203C0004EE26 /* Build configuration list for PBXProject "NLabo-Swift-FoodtrackerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046C83C028EC203C0004EE26;
+			productRefGroup = 046C83CA28EC203C0004EE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046C83C828EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */,
+				046C83DE28EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppTests */,
+				046C83E828EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046C83C728EC203C0004EE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C83D928EC203E0004EE26 /* LaunchScreen.storyboard in Resources */,
+				046C83D628EC203E0004EE26 /* Assets.xcassets in Resources */,
+				046C83D428EC203C0004EE26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83DD28EC203E0004EE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83E728EC203E0004EE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046C83C528EC203C0004EE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C83D128EC203C0004EE26 /* ViewController.swift in Sources */,
+				046C83CD28EC203C0004EE26 /* AppDelegate.swift in Sources */,
+				046C83CF28EC203C0004EE26 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83DB28EC203E0004EE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C83E428EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C83E528EC203E0004EE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C83F028EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift in Sources */,
+				046C83EE28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046C83E128EC203E0004EE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046C83C828EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */;
+			targetProxy = 046C83E028EC203E0004EE26 /* PBXContainerItemProxy */;
+		};
+		046C83EB28EC203E0004EE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046C83C828EC203C0004EE26 /* NLabo-Swift-FoodtrackerApp */;
+			targetProxy = 046C83EA28EC203E0004EE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046C83D228EC203C0004EE26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C83D328EC203C0004EE26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046C83D728EC203E0004EE26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C83D828EC203E0004EE26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046C83F128EC203E0004EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046C83F228EC203E0004EE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046C83F428EC203E0004EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NLabo-Swift-FoodtrackerApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046C83F528EC203E0004EE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NLabo-Swift-FoodtrackerApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046C83F728EC203E0004EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLabo-Swift-FoodtrackerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NLabo-Swift-FoodtrackerApp";
+			};
+			name = Debug;
+		};
+		046C83F828EC203E0004EE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NLabo-Swift-FoodtrackerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NLabo-Swift-FoodtrackerApp";
+			};
+			name = Release;
+		};
+		046C83FA28EC203E0004EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NLabo-Swift-FoodtrackerApp";
+			};
+			name = Debug;
+		};
+		046C83FB28EC203E0004EE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLabo-Swift-FoodtrackerAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NLabo-Swift-FoodtrackerApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046C83C428EC203C0004EE26 /* Build configuration list for PBXProject "NLabo-Swift-FoodtrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C83F128EC203E0004EE26 /* Debug */,
+				046C83F228EC203E0004EE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C83F328EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C83F428EC203E0004EE26 /* Debug */,
+				046C83F528EC203E0004EE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C83F628EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C83F728EC203E0004EE26 /* Debug */,
+				046C83F828EC203E0004EE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C83F928EC203E0004EE26 /* Build configuration list for PBXNativeTarget "NLabo-Swift-FoodtrackerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C83FA28EC203E0004EE26 /* Debug */,
+				046C83FB28EC203E0004EE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046C83C128EC203C0004EE26 /* Project object */;
+}
