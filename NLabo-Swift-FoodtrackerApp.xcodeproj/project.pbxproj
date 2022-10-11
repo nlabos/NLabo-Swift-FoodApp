@@ -49,6 +49,13 @@
 		046C83E928EC203E0004EE26 /* NLabo-Swift-FoodtrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NLabo-Swift-FoodtrackerAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046C83ED28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLabo_Swift_FoodtrackerAppUITests.swift; sourceTree = "<group>"; };
 		046C83EF28EC203E0004EE26 /* NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLabo_Swift_FoodtrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		046E75F328F52DE4000AA798 /* meal3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal3.jpeg; sourceTree = "<group>"; };
+		046E75F428F52DE5000AA798 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		046E75F528F52DE5000AA798 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		046E75F628F52DE5000AA798 /* meal1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal1.jpeg; sourceTree = "<group>"; };
+		046E75F728F52DE5000AA798 /* meal2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal2.jpeg; sourceTree = "<group>"; };
+		046E75F828F52DE5000AA798 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
+		046E75F928F52DE5000AA798 /* highlightedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightedStar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +113,13 @@
 				046C83D528EC203E0004EE26 /* Assets.xcassets */,
 				046C83D728EC203E0004EE26 /* LaunchScreen.storyboard */,
 				046C83DA28EC203E0004EE26 /* Info.plist */,
+				046E75F528F52DE5000AA798 /* defaultPhoto.png */,
+				046E75F428F52DE5000AA798 /* emptyStar.png */,
+				046E75F828F52DE5000AA798 /* filledStar.png */,
+				046E75F928F52DE5000AA798 /* highlightedStar.png */,
+				046E75F628F52DE5000AA798 /* meal1.jpeg */,
+				046E75F728F52DE5000AA798 /* meal2.jpeg */,
+				046E75F328F52DE4000AA798 /* meal3.jpeg */,
 			);
 			path = "NLabo-Swift-FoodtrackerApp";
 			sourceTree = "<group>";
