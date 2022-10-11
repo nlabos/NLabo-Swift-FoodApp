@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     // MARK: Propertis
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
-
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,11 +25,12 @@ class ViewController: UIViewController {
     @IBAction func setDefaultButton(_ sendar: Any) {
         mealNameLabel.text = "Default"
     }
+    
+    @IBAction func selectImageFromPhotoLibrary(_ sendar: UITapGestureRecognizer){
+        
+    }
 
 }
-
-
-
 
 // MARK: TextFieldDelegate
 extension ViewController: UITextFieldDelegate {
