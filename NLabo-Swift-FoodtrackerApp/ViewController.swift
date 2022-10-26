@@ -41,5 +41,6 @@ extension ViewController: UITextFieldDelegate {
     }
     func textFieldDidEndEditing(_ textField: UITextField) {
         mealNameLabel.text = textField.text
+        //ここのプログラムを追加することでできることは、⌘Kでキーボードを表示させて確定ボタンを押したときにLabelに表示をすることができるようになる
     }
 }
